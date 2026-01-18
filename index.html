@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Campus Event Dashboard</title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <div class="main-container">
+            <header>
+                <h1 class="glow-text">Campus Events <span class="highlight">LIVE</span></h1>
+                <p class="subtitle">Upcoming University Milestones</p>
+            </header>
+
+            <div class="dashboard">
+                <div class="card">
+                    <div class="card-icon">🎓</div>
+                    <h2>Final Exams</h2>
+                    <div class="timer" id="timer1">
+                        <div class="time-box"><span id="d1">00</span><small>Days</small></div>
+                        <div class="time-box"><span id="h1">00</span><small>Hours</small></div>
+                        <div class="time-box"><span id="m1">00</span><small>Mins</small></div>
+                        <div class="time-box"><span id="s1">00</span><small>Secs</small></div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-icon">🏆</div>
+                    <h2>Sports Meet</h2>
+                    <div class="timer" id="timer2">
+                        <div class="time-box"><span id="d2">00</span><small>Days</small></div>
+                        <div class="time-box"><span id="h2">00</span><small>Hours</small></div>
+                        <div class="time-box"><span id="m2">00</span><small>Mins</small></div>
+                        <div class="time-box"><span id="s2">00</span><small>Secs</small></div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-icon">🎉</div>
+                    <h2>Convocation</h2>
+                    <div class="timer" id="timer3">
+                        <div class="time-box"><span id="d3">00</span><small>Days</small></div>
+                        <div class="time-box"><span id="h3">00</span><small>Hours</small></div>
+                        <div class="time-box"><span id="m3">00</span><small>Mins</small></div>
+                        <div class="time-box"><span id="s3">00</span><small>Secs</small></div>
+                    </div>
+                </div>
+            </div>
+
+            <footer>
+                <p>System Live Status: <span style="color:#00ff88">● Online</span></p>
+            </footer>
+        </div>
+
+        <script src="script.js"></script>
+
+    </body>
+</html>
