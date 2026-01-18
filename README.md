@@ -3,7 +3,6 @@
 A high-visibility, real-time dashboard designed to track time remaining for major university milestones (Final Exams, Sports Meets, Convocation). This project features a modern **Neon Glassmorphism** UI and is fully responsive for mobile devices.
 
 ![Project Screenshot](screenshot.png) 
-*(Note: Upload your screenshot to the repo and replace 'screenshot.png' with your image filename)*
 
 ## 🚀 Project Overview
 This tool acts as a "Digital Notice Board" for students. It uses JavaScript to calculate the time difference between the current date and target event dates, updating the countdown every second without refreshing the page.
